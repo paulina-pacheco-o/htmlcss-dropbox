@@ -5,7 +5,7 @@
 }
 
 body {
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 header {
@@ -16,6 +16,48 @@ header {
 .container-full {
   max-width: 100%;
   margin: 0 auto;
+}
+
+.jumbotron {
+  max-width: 1500px;
+  margin: 0 auto;
+  background-color: #B4D0E6;
+  color: black;
+  display: flex;
+  flex-wrap: nowrap;
+  height: 700px;
+}
+
+.container-big {
+  justify-content: center;
+  background-color: #B4D0E6;
+}
+
+.bg-pink {
+  background-color: pink;
+}
+
+.col-40 {
+  width: 40%;
+}
+
+.col-60 {
+  width: 60%;
+}
+
+.col-100 {
+  width: 100px;
+}
+
+.h-70 {
+  height: 70px;
+}
+
+.h-80 {
+  height: 20px;
+}
+
+.logo {
   height: 50px;
   display: flex;
   font-weight: 100;
