@@ -16,12 +16,12 @@ header {
 .container-full {
   max-width: 100%;
   margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .jumbotron {
-  max-width: 1500px;
-  margin: 0 auto;
-  background-color: #B4D0E6;
   color: black;
   display: flex;
   flex-wrap: nowrap;
@@ -29,8 +29,46 @@ header {
 }
 
 .container-big {
-  justify-content: center;
+  max-width: 1500px;
+  margin: 0 auto;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.bg-lightblue {
   background-color: #B4D0E6;
+}
+
+.row {
+  width: 100%;
+  margin: 0 auto;
+  height: 50px;
+  background-color: pink;
+  color: black;
+  align-self: stretch;
+}
+
+.row-s {
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 150px;
+  height: 200px;
+  background-color: pink;
+  color: black;
+  align-self: stretch;
+}
+
+.columns {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.bg-green {
+  background-color: green;
 }
 
 .bg-pink {
@@ -45,16 +83,12 @@ header {
   width: 60%;
 }
 
-.col-100 {
-  width: 100px;
+.col-30 {
+  width: calc(100% / 3 - 30px);
 }
 
-.h-70 {
-  height: 70px;
-}
-
-.h-80 {
-  height: 20px;
+.h-700 {
+  height: 700px;
 }
 
 .logo {
@@ -90,10 +124,6 @@ li {
 
 .bg-orange {
   background-color: orange;
-}
-
-.col-50 {
-  width: 50%;
 }
 
 .border-black {
