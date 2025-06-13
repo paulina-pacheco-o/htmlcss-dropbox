@@ -9,16 +9,12 @@ body {
 }
 
 header {
-  background-color: yellow;
   padding: 15px;
 }
 
 .container-full {
   max-width: 100%;
   margin: 0 auto;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
 }
 
 .jumbotron {
@@ -26,12 +22,13 @@ header {
   display: flex;
   flex-wrap: nowrap;
   height: 700px;
+  font-size: 25px;
+  align-items: center;
 }
 
 .container-big {
   max-width: 1500px;
   margin: 0 auto;
-  margin-top: 40px;
 }
 
 .container {
@@ -43,13 +40,21 @@ header {
   background-color: #B4D0E6;
 }
 
+.row-f {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  align-content: center;
+}
+
+
 .row {
   width: 100%;
   margin: 0 auto;
-  height: 50px;
-  background-color: pink;
+  height: 300px;
   color: black;
   align-self: stretch;
+  padding-top: 30px;
 }
 
 .row-s {
@@ -72,6 +77,11 @@ header {
   align-self: stretch;
 }
 
+.jumbo {
+  width: 60%;
+  position: relative;
+}
+
 .columns {
   display: flex;
   flex-wrap: wrap;
@@ -83,6 +93,24 @@ header {
   display: flex;
   flex-wrap: wrap;
   gap: 10px;
+}
+
+.fake-checkbox {
+  display: flex;
+
+}
+
+h1 {
+  font-size: 100px;
+  padding: 15px;
+}
+
+h2 {
+  font-size: 50px;
+}
+
+span {
+  font-size: 40px;
 }
 
 .bg-pink {
@@ -112,6 +140,11 @@ header {
 .h-500 {
   height: 500px;
 }
+
+.h-50px {
+  height: 50px;
+}
+
 
 .m-30 {
   margin-top: 30px;
@@ -146,10 +179,6 @@ li {
   text-align: left;
 }
 
-h1 {
-  margin-top: 50px;
-}
-
 .button {
   margin: 10px;
   background-color: #0061FE;
@@ -160,14 +189,13 @@ h1 {
   border-radius: 0px;
 }
 
-.bg-orange {
-  background-color: orange;
-}
-
-.border-black {
-  border: 1px solid black;
-}
-
-.h-50px {
-  height: 50px;
+.button-s {
+  margin: 10px 5px;
+  background-color: #0061FE;
+  color: white;
+  text-align: center;
+  align-content: center;
+  width: 350px;
+  height: 40px;
+  border-radius: 0px;
 }
