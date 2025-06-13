@@ -69,7 +69,7 @@ header {
 .row-p {
   width: 100%;
   margin: 0 auto;
-  margin-top: 50px;
+  display: flex;
   margin-bottom: 20px;
   height: 200px;
   border: 1px solid gray;
@@ -108,6 +108,15 @@ header {
 
 .mini-box {
   width: 100%;
+  border: 1px solid gray;
+  height: 40px;
+  text-align: center;
+  align-content: center;
+}
+
+.team {
+  width: 100%;
+  margin-top: 50px;
   border: 1px solid gray;
   height: 40px;
   text-align: center;
@@ -252,6 +261,7 @@ li {
 .buttons {
   margin: 10px;
   background-color: #0061FE;
+  margin-left: 190px;
   color: white;
   text-align: center;
   align-content: center;
