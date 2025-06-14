@@ -91,6 +91,26 @@ header {
   width: 100%;
 }
 
+.files {
+  width: 100%;
+}
+
+.coordinate {
+  width: 100%;
+}
+
+.integrations {
+  width: 100%;
+}
+
+.multi-device {
+  width: 100%;
+}
+
+.security {
+  width: 100%;
+}
+
 .columns {
   display: flex;
   flex-wrap: wrap;
