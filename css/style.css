@@ -69,10 +69,19 @@ header {
 .row-p {
   width: 100%;
   margin: 0 auto;
-  display: flex;
   margin-bottom: 20px;
   height: 200px;
   border: 1px solid gray;
+  display: flex;
+  color: black;
+  align-self: stretch;
+}
+
+.row-ps {
+  width: 100%;
+  margin: 0 auto;
+  margin-bottom: 40px;
+  height: 200px;
   color: black;
   align-self: stretch;
 }
@@ -111,6 +120,10 @@ header {
   width: 100%;
 }
 
+.earth {
+  color: gray;
+}
+
 .columns {
   display: flex;
   flex-wrap: wrap;
@@ -122,6 +135,18 @@ header {
   display: flex;
   flex-wrap: wrap;
   gap: 10px;
+}
+
+.column {
+  display: flex;
+}
+
+.white {
+  color: white;
+}
+
+ul {
+  list-style: none;
 }
 
 .checkbox {
@@ -254,6 +279,10 @@ span {
   width: 39%;
 }
 
+.col-10 {
+  width: calc(100% / 5);
+}
+
 .logo {
   height: 50px;
   display: flex;
@@ -266,13 +295,16 @@ span {
 
 ul {
   list-style: none;
+}
+
+.display {
   display: flex;
   color: black;
 }
 
 li {
-  padding: 5px 10px;
   text-align: left;
+  padding: 5px 10px;
 }
 
 .button {
@@ -319,4 +351,8 @@ li {
   width: 200px;
   height: 35px;
   border-radius: 0px;
+}
+
+.flex {
+  flex-direction: column;
 }
